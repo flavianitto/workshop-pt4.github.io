@@ -66,11 +66,11 @@
 <li>Faça a configuração do Runtime com as seguintes informações e clique em <strong>Next</strong></li>
 </ol>
 <ul>
-<li><strong>Select runtime: </strong><code>Mule Gateway</code></li>
-<li><strong>Proxy type: </strong><code>Deploy a proxy application</code></li>
-<li><strong>Target type: </strong><code>CloudHub</code></li>
-<li><strong>Runtime version: </strong><code>4.4.0</code></li>
-<li><strong>Proxy app name</strong>: <code><nome do usuário> -proxy-omni-channel-api</code>. Este parâmetro será usado para identificar a API no API Manager.</li>
+<li><strong>Select runtime</strong>: <code>Mule Gateway</code></li>
+<li><strong>Proxy type</strong>: <code>Deploy a proxy application</code></li>
+<li><strong>Target type</strong>: <code>CloudHub</code></li>
+<li><strong>Runtime version</strong>: <code>4.4.0</code></li>
+<li><strong>Proxy app name</strong>: <code>[username]-proxy-omni-channel-api</code>. Este parâmetro será usado para identificar a API no API Manager.</li>
 </ul>
 <p class="image-container"><img style="width: 624.00px" src="img/672db0d0f7a996e9.png"></p>
 <ol type="1" start="3">
@@ -88,9 +88,8 @@
 <li>Configure o Endpoint e pressione <strong>Next</strong>:</li>
 </ol>
 <ul>
-<li><strong>Rótulo da instância da API</strong>: <code><nome do usuário> -proxy-omni-channel-api</code>. Este parâmetro será usado para identificar a API no API Manager.</li>
-<li><strong>Implementation URI</strong>: <code>http://<Domain link da aplicação no CloudHub> /api</code></li>
-<li><strong>Consumer Endpoint</strong>: <code>[opcional]</code></li>
+<li><strong>Rótulo da instância da API</strong>: <code>[username]-proxy-omni-channel-api</code>. Este parâmetro será usado para identificar a API no API Manager.</li>
+<li><strong>Implementation URI</strong>: <code>http://[Domain-link-da-aplicação-no-CloudHub]/api</code></li>
 <li><strong>Base Path</strong>: <code>/</code></li>
 </ul>
 <p class="image-container"><img style="width: 624.00px" src="img/42cdfe823185b6d2.png"></p>
@@ -167,7 +166,7 @@
 <li>Na terceira chamada, você receberá uma mensagem de erro indicando que a <strong>cota foi excedida</strong>. Isso demonstra que sua política de limitação de taxa foi aplicada.</li>
 </ol>
 <p class="image-container"><img alt="module 5 lab2 browser json response fail ratelimiting" style="width: 624.00px" src="img/3852a48d317bba36.png"><br></p>
-<p>Parabéns! Você acaba de gerenciar uma API usando Mulesoft API Manager.</p>
+<p>Parabéns! Você acaba de gerenciar uma API usando <strong>Mulesoft API Manager</strong>.</p>
 
 
       </google-codelab-step>
