@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2022-08-25T13:32:11Z",
+  "id": "pt-04-manage-api",
+  "duration": 0,
+  "title": "Manage",
+  "authors": "Andre Strenger",
+  "summary": "Manage",
+  "source": "1vn3FjVq04SHTuVA1Nvl_zGuYda40JxCn78r1G4WTo9E",
+  "theme": "web",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "web"
+  ],
+  "tags": [
+    "web"
+  ],
+  "feedback": "https://github.com/fcatae",
+  "url": "pt-04-manage-api"
+}
